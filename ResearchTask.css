@@ -1,0 +1,70 @@
+.title {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: auto;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 40px;
+}
+
+.ENIACimg {
+    float: left;
+    margin-right: 10px;
+    border: 4px solid black;
+    position: relative;
+}
+
+.main {
+    float: left;
+    text-align: middle;
+    font-size: 95px;
+    line-height: 9px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;
+}
+
+body {
+    background-color: bisque;
+}
+
+.power {
+    float: right;
+    border: 4px solid black;
+    position: relative;
+}
+
+.caption2 {
+    float: right;
+    text-align: right;
+    color: gray;
+    font-style: italic;
+}
+
+.caption {
+    float: left;
+    text-align: left;
+    position: absolute;
+    color: gray;
+    font-style: italic;
+}
+
+.biblio {
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+.biblioitems {
+    position: absolute;
+}
